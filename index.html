@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Overview: Simplified Trading Bot & Infographic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; color: #334155; }
+        .gradient-bg-text { background: linear-gradient(135deg, #2E3192, #00A6FB); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .card { background-color: white; border-radius: 0.75rem; padding: 2rem; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); transition: transform 0.3s ease; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); }
+        .btn-primary { background-color: #00A6FB; color: white; padding: 0.75rem 1.5rem; border-radius: 0.5rem; font-weight: 600; transition: background-color 0.3s ease; }
+        .btn-primary:hover { background-color: #0072BC; }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+
+    <header class="bg-white shadow-md py-6">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl font-bold gradient-bg-text">Trading Bot Project</h1>
+            <p class="mt-2 text-lg text-gray-600">A comprehensive solution for simulated trading and data visualization.</p>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto px-4 py-12">
+        <section class="text-center mb-16">
+            <h2 class="text-3xl font-bold mb-4">Welcome to the Project Hub</h2>
+            <p class="text-lg text-gray-700 max-w-3xl mx-auto">This project showcases a powerful Python-based trading bot for the Binance Futures Testnet, complemented by an interactive web infographic designed to make complex technical details easily understandable.</p>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
+            <div class="card">
+                <h3 class="text-2xl font-bold text-[#2E3192] mb-4">The Simplified Trading Bot</h3>
+                <p class="text-gray-700 mb-4">Developed in Python, this bot provides a safe environment to practice trading strategies on the Binance Futures Testnet. It supports key order types like Market, Limit, and Stop-Market, and includes robust logging and error handling for reliable operation.</p>
+                <ul class="list-disc list-inside text-gray-600 mb-6 space-y-2">
+                    <li>🛡️ Testnet-only operations for risk-free learning.</li>
+                    <li>📊 Support for Market, Limit, and Stop-Market orders.</li>
+                    <li>🚦 Intelligent input validation prevents common errors.</li>
+                    <li>📝 Detailed logging of all API interactions.</li>
+                </ul>
+                <!-- Link to the GitHub repository or a download link for the Python bot code -->
+                <a href="https://github.com/Nisar8856/Simplified_Binance_Futures_Trading_Bot.ipynb.git" target="_blank" class="btn-primary inline-block">View Bot Code (GitHub)</a>
+            </div>
+
+            <div class="card">
+                <h3 class="text-2xl font-bold text-[#00A6FB] mb-4">Interactive Infographic</h3>
+                <p class="text-gray-700 mb-4">This single-page web application transforms the bot's technical specifications into an engaging visual story. It uses interactive charts and diagrams to explain core features, the user workflow, and the bot's reliability, all designed for easy comprehension.</p>
+                <ul class="list-disc list-inside text-gray-600 mb-6 space-y-2">
+                    <li>💡 Visualizes complex data with Chart.js.</li>
+                    <li>📈 Explains order types and reliability through interactive charts.</li>
+                    <li>🗺️ Clear workflow diagrams (HTML/CSS-based).</li>
+                    <li>📱 Fully responsive design for any device.</li>
+                </ul>
+                <!-- Link to the interactive infographic HTML file -->
+                <a href="infographic.html" class="btn-primary inline-block">Explore the Infographic</a>
+            </div>
+        </section>
+
+        <section id="bot-details" class="bg-white rounded-lg shadow-lg p-8 mb-16">
+            <h2 class="text-3xl font-bold text-center mb-6">Deep Dive: The Trading Bot</h2>
+            <p class="text-gray-700 max-w-4xl mx-auto text-center mb-8">The Python trading bot is built for practical application in a simulated environment. It provides a command-line interface for users to interact directly, making it an excellent tool for understanding automated trading mechanics without financial risk.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h4 class="text-xl font-semibold text-[#2E3192] mb-3">Core Functionalities</h4>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>**Testnet-Only Operations:** Ensures all trades are simulated, protecting real capital.</li>
+                        <li>**Flexible Order Types:** Supports `MARKET`, `LIMIT`, and `STOP_MARKET` orders.</li>
+                        <li>**Buy/Sell Capabilities:** Handles both buy and sell order sides.</li>
+                        <li>**Account Balance Check:** Allows users to monitor their simulated USDT balance.</li>
+                        <li>**Dynamic Symbol Info:** Fetches real-time exchange rules for precise order placement.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-semibold text-[#2E3192] mb-3">Reliability & User Experience</h4>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>**Input Validation:** Automatically checks user inputs against Binance's strict rules (e.g., quantity precision, minimum notional value) to prevent API errors.</li>
+                        <li>**Comprehensive Logging:** Every API request, response, and error is recorded to a log file and console, crucial for debugging and auditing.</li>
+                        <li>**Robust Error Handling:** Catches and reports `BinanceAPIException` and `BinanceRequestException` gracefully, providing clear feedback on issues.</li>
+                        <li>**Command-Line Interface (CLI):** Simple and direct interaction method for quick testing and operation.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="infographic-details" class="bg-white rounded-lg shadow-lg p-8">
+            <h2 class="text-3xl font-bold text-center mb-6">Interactive Infographic: Visualizing the Project</h2>
+            <p class="text-gray-700 max-w-4xl mx-auto text-center mb-8">The interactive infographic is a single-page web application designed to visually communicate the essence of the trading bot project. It uses modern web technologies to present a clear narrative, making complex information accessible and engaging for any audience.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h4 class="text-xl font-semibold text-[#00A6FB] mb-3">Design & Structure</h4>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>**Narrative Flow:** Structured to guide the user from a high-level overview to specific details.</li>
+                        <li>**Responsive Design:** Optimized for seamless viewing on desktop, tablet, and mobile devices using Tailwind CSS.</li>
+                        <li>**Material Design Aesthetics:** Clean layout with cards, shadows, and clear typography.</li>
+                        <li>**Vibrant Color Palette:** Utilizes a "Brilliant Blues & Energetic Tech" color scheme for visual appeal.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-semibold text-[#00A6FB] mb-3">Interactive Elements & Visualizations</h4>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>**Key Feature Cards:** Quick, scannable summaries of bot capabilities.</li>
+                        <li>**Workflow Flowchart:** Visually simplifies the bot's setup and usage process.</li>
+                        <li>**Dynamic Charts (Chart.js):**
+                            <ul>
+                                <li>Doughnut chart to show order type capabilities.</li>
+                                <li>Bar chart to illustrate error prevention by validation.</li>
+                            </ul>
+                        </li>
+                        <li>**No SVG/Mermaid JS:** All graphics are rendered via Canvas or structured HTML/CSS.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-6 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Trading Bot Project. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
