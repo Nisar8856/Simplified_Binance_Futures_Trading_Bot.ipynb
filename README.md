@@ -11,10 +11,10 @@ This project provides a basic Python-based trading bot designed to interact with
 ![result](https://github.com/user-attachments/assets/ea3380eb-8cef-4fbe-8437-7e425bbe4f6a)
 
 ### 📈 Order Type Capabilities
-![Result](https://jmp.sh/amUJyltJ)
+![Result]()
 
-### 📈 Rsult for Top 3 Colleges
-![Predicted Result](https://jmp.sh/mG2gQKdW)
+### 📈Enhancing Reliability
+![Result](https://github.com/user-attachments/assets/a2ea272d-78b5-42fe-8ec6-62f404287e37)
 
 ### 📈 Future of the Bot: Potential Enhancements
 ![Result](https://github.com/user-attachments/assets/7ab7430b-c434-405b-80e1-6461053aee63)
