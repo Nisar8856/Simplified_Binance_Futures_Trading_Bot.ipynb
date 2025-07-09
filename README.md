@@ -7,11 +7,11 @@ This project provides a basic Python-based trading bot designed to interact with
 
 ## Screenshots 🖼️
 
-### 📈 Core Capabilities at a Glance
-![Core Capabilities at a Glance](https://jmp.sh/VjNIXbHi)
+### 📈 The Trading Workflow: From Setup to Execution
+![result](https://github.com/user-attachments/assets/ea3380eb-8cef-4fbe-8437-7e425bbe4f6a)
 
-### 📈 Rsult for Choosing Top 1 College
-![Predicted Result](https://jmp.sh/amUJyltJ)
+### 📈 Order Type Capabilities
+![Result](https://jmp.sh/amUJyltJ)
 
 ### 📈 Rsult for Top 3 Colleges
 ![Predicted Result](https://jmp.sh/mG2gQKdW)
