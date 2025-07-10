@@ -4,6 +4,9 @@
 ## Introduction :-
 
 This project provides a basic Python-based trading bot designed to interact with the Binance Futures Testnet. It allows users to place MARKET, LIMIT, and STOP_MARKET orders, check account balances, and includes essential features like robust logging and error handling.
+## Dataset Used :-
+
+[View CSV file on Google Drive](https://drive.google.com/file/d/16_s4ogFuTeH0SbrxnIVZsWnFlSAm9UIj/view?usp=sharing)
 
 ## Screenshots 🖼️
 
